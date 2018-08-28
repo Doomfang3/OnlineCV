@@ -1,30 +1,90 @@
 body.container {
   display: grid;
-  grid-template-columns: minmax(20px, 1fr) minmax(600px, 60%) minmax(20px, 1fr);
+  grid-template-columns: minmax(20px, 1fr) minmax(800px, 60%) minmax(20px, 1fr);
+}
+
+.whiteBg {
+  background: white;
 }
 
 .headerContainer {
-  background: white;
+
   display: grid;
-  grid-template-columns: 1fr minmax(10px, 200px) 1fr;
-  padding: 10px;
+  grid-template-columns: 1fr minmax(100px, 200px) 1fr;
+  padding-top: 2em;
+  align-self: center;
 }
 
-.hLeft {
+.left {
   text-align: right;
 }
 
 .avatar {
   border-radius: 50%;
+  border: 6px solid #33B9CC;
+  width: 100%;
+  height: auto;
 }
 
 body {
-      background: #33B9CC;
+  padding: 0px;
+  margin: 0px;
+  background: #33B9CC;
   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  padding: 1.5em;
 }
 
 h1, h2 {
   font-family: 'Cinzel Decorative', cursive;
-  align-self: center;
-padding: 1.5em;
+  letter-spacing: 0.25em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  color: #33B9CC;
+}
+
+em {
+  font-style: italic;
+}
+
+.icons {
+  width: 75px;
+  height: auto
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.firstContainer {
+  display: grid;
+  grid-template-columns: 1fr 6px 1fr;
+}
+
+.verticalLine {
+  margin: 0px;
+  border: 3px solid #33B9CC;
+}
+
+.textPadding {
+  padding: 20px;
+}
+
+.contact, footer>p {
+  text-align: center;
+}
+
+footer>p>a, footer>p {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.75em
 }
