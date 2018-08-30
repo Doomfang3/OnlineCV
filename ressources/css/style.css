@@ -1,3 +1,7 @@
+:root {
+  --main: #33B9CC;
+}
+
 body.container {
   display: grid;
   grid-template-columns: minmax(20px, 1fr) minmax(800px, 60%) minmax(20px, 1fr);
@@ -18,22 +22,41 @@ body.container {
   text-align: right;
 }
 
+.divImg {
+  width: 80%;
+  height: 80%;
+  position: relative
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,0);
+}
+
 .avatar {
   border-radius: 50%;
-  border: 6px solid #33B9CC;
-  width: 100%;
-  height: auto;
+  border: 6px solid var(--main);
+  max-width: 200px;
+  max-height: 200px;
+  position: relative;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
 }
 
 body {
   padding: 0px;
   margin: 0px;
-  background: #33B9CC;
+  background: var(--main);
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  padding: 1.5em;
+  align-self: center;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -48,7 +71,7 @@ h2 {
 
 .quote {
   text-align: center;
-  color: #33B9CC;
+  color: var(--main);
 }
 
 em {
@@ -71,7 +94,7 @@ em {
 
 .verticalLine {
   margin: 0px;
-  border: 3px solid #33B9CC;
+  border: 3px solid var(--main);
 }
 
 h3 {
@@ -112,7 +135,7 @@ footer>p>a, footer>p {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #33B9CC;
+  background-color: var(--main);
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -134,7 +157,7 @@ footer>p>a, footer>p {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #33B9CC transparent;
+  border-color: transparent transparent var(--main) transparent;
 }
 
 .tooltip:hover .tooltiptext {
