@@ -37,13 +37,14 @@ h1 {
   padding: 1.5em;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive;
   letter-spacing: 0.25em;
 }
 
 h2 {
   text-align: center;
+  font-weight: 400;
 }
 
 .quote {
@@ -75,6 +76,11 @@ em {
   border: 3px solid #33B9CC;
 }
 
+h3 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .textPadding {
   padding: 20px;
 }
@@ -83,8 +89,57 @@ em {
   text-align: center;
 }
 
+.descriptivText {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(0%, 2fr) 1fr 1fr 1fr 1fr minmax(0%, 2fr);
+  padding: 1.5em;
+}
+
 footer>p>a, footer>p {
   text-decoration: none;
   color: inherit;
   font-size: 0.75em
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #33B9CC;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #33B9CC transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
