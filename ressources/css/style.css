@@ -8,7 +8,6 @@ body.container {
 }
 
 .headerContainer {
-
   display: grid;
   grid-template-columns: 1fr minmax(100px, 200px) 1fr;
   padding-top: 2em;
@@ -58,8 +57,7 @@ em {
 
 .icons {
   width: 75px;
-  height: auto
-  margin: auto;
+  height: auto margin: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -107,39 +105,39 @@ footer>p>a, footer>p {
 }
 
 .tooltip {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #33B9CC;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 95%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
+  visibility: hidden;
+  width: 120px;
+  background-color: #33B9CC;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #33B9CC transparent;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #33B9CC transparent;
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
