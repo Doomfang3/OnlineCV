@@ -67,9 +67,9 @@ function switchRegion() {
 
   function spanishText() {
     document.getElementById("h2").innerHTML = "Desarrollador Web";
-    document.getElementById("quote").innerHTML = "Lo único que podemos decidir es qué hacer con tiempo se nos ha establecido.";
+    document.getElementById("quote").innerHTML = "Lo único que podemos decidir es qué hacer con el tiempo que se nos ha establecido.";
     document.getElementById("1h3").innerHTML = "Experiéncia";
-    document.getElementById("1h4").innerHTML = "WHV Australia & Canada - 2016 a 2018";
+    document.getElementById("1h4").innerHTML = "Working Holiday Visa Australia & Canada - 2016 a 2018";
     document.getElementById("1p").innerHTML = "Experiencias diversas";
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Elevadores y ACAF Lyon - 2010 a 2015";
     document.getElementById("2p").innerHTML = "Técnico de Mantenimiento Ascensorista";
