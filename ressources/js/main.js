@@ -14,7 +14,7 @@ function switchRegion() {
       englishText();
   }
 
-  function spanishText() {
+  function frenchText() {
     document.getElementById("h2").innerHTML = "Développeur Web";
     document.getElementById("quote").innerHTML = "La seule chose que l'on puisse décider est quoi faire du temps qui nous est imparti.";
     document.getElementById("1h3").innerHTML = "Expérience";
