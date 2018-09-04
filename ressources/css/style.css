@@ -25,13 +25,12 @@ body.container {
 .divImg {
   width: 80%;
   height: 80%;
-  position: relative
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color: rgba(0,0,0,0);
+  position: relative margin:auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .avatar {
@@ -40,11 +39,11 @@ body.container {
   max-width: 200px;
   max-height: 200px;
   position: relative;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 body {
@@ -87,7 +86,7 @@ em {
   padding: 1em;
 }
 
-.firstContainer {
+.mainContainer {
   display: grid;
   grid-template-columns: 1fr 6px 1fr;
 }
@@ -132,11 +131,11 @@ footer>p>a, footer>p {
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltipText {
   visibility: hidden;
   width: 120px;
   background-color: var(--main);
-  color: #fff;
+  color: white;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -149,7 +148,7 @@ footer>p>a, footer>p {
   transition: opacity 0.3s;
 }
 
-.tooltip .tooltiptext::after {
+.tooltip .tooltipText::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -160,7 +159,15 @@ footer>p>a, footer>p {
   border-color: transparent transparent var(--main) transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltipText {
   visibility: visible;
   opacity: 1;
+}
+
+#switchRegion {
+  position: absolute;
+}
+
+#switchRegion:focus {
+  outline: none;
 }
