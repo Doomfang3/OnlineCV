@@ -18,7 +18,7 @@ function switchRegion() {
     document.getElementById("h2").innerHTML = "Développeur Web";
     document.getElementById("quote").innerHTML = "La seule chose que l'on puisse décider est quoi faire du temps qui nous est imparti.";
     document.getElementById("1h3").innerHTML = "Expérience";
-    document.getElementById("1h4").innerHTML = "PVT Australie & Canada - 2016 à 2018";
+    document.getElementById("1h4").innerHTML = "Permis Vacances Travail Australie & Canada - 2016 à 2018";
     document.getElementById("1p").innerHTML = "Expériences diverses.";
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Ascenseurs et ACAF Lyon - 2010 à 2015";
     document.getElementById("2p").innerHTML = "Technicien de Maintenance Ascensoriste";
@@ -44,7 +44,7 @@ function switchRegion() {
     document.getElementById("h2").innerHTML = "Web Developer";
     document.getElementById("quote").innerHTML = "All we have to decide is what to do with the time that is given to us.";
     document.getElementById("1h3").innerHTML = "Experience";
-    document.getElementById("1h4").innerHTML = "WHV Australia & Canada - 2016 to 2018";
+    document.getElementById("1h4").innerHTML = "Working Holiday Visa Australia & Canada - 2016 to 2018";
     document.getElementById("1p").innerHTML = "Various experiences";
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Lifts and ACAF Lyon - 2010 to 2015";
     document.getElementById("2p").innerHTML = "Lift Maintenance Technician";
