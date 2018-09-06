@@ -61,7 +61,7 @@ function switchRegion() {
     document.getElementById("7p").innerHTML = "Role-Playing Games";
     document.getElementById("8p").innerHTML = "New Technologies";
     document.getElementById("9p").innerHTML = "Trekking";
-    document.getElementById("5h3").innerHTML = "Love what you see ? Give me a call !";
+    document.getElementById("5h3").innerHTML = "Like what you see ? Give me a call !";
     document.getElementById("1s").innerHTML = "Phone";
   };
 
