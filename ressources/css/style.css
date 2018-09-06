@@ -79,8 +79,17 @@ em {
 
 .icons {
   width: 75px;
-  height: auto margin: auto;
+  height: auto;
+  margin: auto;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+.smallIcons {
+  width: 25px;
+  height: auto;
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
@@ -165,9 +174,17 @@ footer>p>a, footer>p {
 }
 
 #switchRegion {
-  position: absolute;
+  margin: 1em;
+  padding: 0;
 }
 
 #switchRegion:focus {
   outline: none;
+}
+
+.region {
+  display: grid;
+  grid-template-columns: 75px 30px 30px;
+  position: absolute;
+  margin: auto;
 }

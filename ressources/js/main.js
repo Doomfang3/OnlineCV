@@ -4,14 +4,21 @@ function switchRegion() {
     case english:
       flag.setAttribute("src", spanish);
       spanishText();
+      document.getElementById("secondFlag").src = "ressources/img/france.svg";
+      document.getElementById("thirdFlag").src = "ressources/img/united-kingdom.svg";
       break;
     case spanish:
       flag.setAttribute("src", french);
       frenchText();
+      document.getElementById("secondFlag").src = "ressources/img/united-kingdom.svg";
+      document.getElementById("thirdFlag").src = "ressources/img/spain.svg";
       break;
     case french:
       flag.setAttribute("src", english);
       englishText();
+      document.getElementById("secondFlag").src = "ressources/img/spain.svg";
+      document.getElementById("thirdFlag").src = "ressources/img/france.svg";
+
   }
 
   function frenchText() {
@@ -23,6 +30,8 @@ function switchRegion() {
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Ascenseurs et ACAF Lyon - 2010 à 2015";
     document.getElementById("2p").innerHTML = "Technicien de Maintenance Ascensoriste";
     document.getElementById("2h3").innerHTML = "Formation";
+    document.getElementById("25h4").innerHTML = "Ecole O'Clock - 2018";
+    document.getElementById("25p").innerHTML = "Formation 'Le Socle'";
     document.getElementById("3h4").innerHTML = "Multiples auto-formations - 2018";
     document.getElementById("4h4").innerHTML = "Mention Complémentaire de Technicien de Maintenance Ascensoriste - 2010";
     document.getElementById("5h4").innerHTML = "Baccalauréat Professionnel Electrotechnique- 2009";
@@ -48,7 +57,9 @@ function switchRegion() {
     document.getElementById("1p").innerHTML = "Various experiences";
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Lifts and ACAF Lyon - 2010 to 2015";
     document.getElementById("2p").innerHTML = "Lift Maintenance Technician";
-    document.getElementById("2h3").innerHTML = "Studies";
+    document.getElementById("2h3").innerHTML = "Education";
+    document.getElementById("25h4").innerHTML = "O'Clock School- 2018";
+    document.getElementById("25p").innerHTML = "'The Base' training:";
     document.getElementById("3h4").innerHTML = "Multiples self-trainings - 2018";
     document.getElementById("4h4").innerHTML = "Complementary Title of Lift Maintenance Technician - 2010";
     document.getElementById("5h4").innerHTML = "Professional Electrotechnic Bachelor - 2009";
@@ -74,6 +85,8 @@ function switchRegion() {
     document.getElementById("2h4").innerHTML = "ThyssenKrupp Elevadores y ACAF Lyon - 2010 a 2015";
     document.getElementById("2p").innerHTML = "Técnico de Mantenimiento Ascensorista";
     document.getElementById("2h3").innerHTML = "Formación";
+    document.getElementById("25h4").innerHTML = "Escuela O'Clock - 2018";
+    document.getElementById("25p").innerHTML = "Formación 'La Base':";
     document.getElementById("3h4").innerHTML = "Múltiples auto-formaciones - 2018";
     document.getElementById("4h4").innerHTML = "Titulo Complementario de Técnico de Mantenimiento Ascensorista - 2010";
     document.getElementById("5h4").innerHTML = "Bachillerato Profesional Electrotécnico - 2009";
