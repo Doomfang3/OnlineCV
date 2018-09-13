@@ -37,7 +37,7 @@ function switchRegion() {
     document.getElementById("5h4").innerHTML = "Baccalauréat Professionnel Electrotechnique- 2009";
     document.getElementById("3p").innerHTML = "Mention Bien";
     document.getElementById("3h3").innerHTML = "Compétences";
-    document.getElementById("4p").innerHTML = "P.O.O.";
+    document.getElementById("4p").innerHTML = "Git";
     document.getElementById("5p").innerHTML = "Français (Langue maternelle) / Anglais (Niveau C1) / Espagnol (Niveau A2)";
     document.getElementById("4h3").innerHTML = "Intérêts";
     document.getElementById("6p").innerHTML = "Voyage";
@@ -65,7 +65,7 @@ function switchRegion() {
     document.getElementById("5h4").innerHTML = "Professional Electrotechnic Bachelor - 2009";
     document.getElementById("3p").innerHTML = "With Honors";
     document.getElementById("3h3").innerHTML = "Skills";
-    document.getElementById("4p").innerHTML = "O.O.P.";
+    document.getElementById("4p").innerHTML = "Git";
     document.getElementById("5p").innerHTML = "French (Mother's tongue) / English (Level C1) / Spanish (Level A2)";
     document.getElementById("4h3").innerHTML = "Interests";
     document.getElementById("6p").innerHTML = "Travel";
@@ -92,7 +92,7 @@ function switchRegion() {
     document.getElementById("5h4").innerHTML = "Bachillerato Profesional Electrotécnico - 2009";
     document.getElementById("3p").innerHTML = "Mención Bien";
     document.getElementById("3h3").innerHTML = "Competencia";
-    document.getElementById("4p").innerHTML = "P.O.O.";
+    document.getElementById("4p").innerHTML = "Git";
     document.getElementById("5p").innerHTML = "Francés (Langua materna) / Ingles (Nivel C1) / Español (Nivel A2)";
     document.getElementById("4h3").innerHTML = "Interes";
     document.getElementById("6p").innerHTML = "Viaje";
