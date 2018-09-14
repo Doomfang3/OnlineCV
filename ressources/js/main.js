@@ -27,8 +27,8 @@ function switchRegion() {
     document.getElementById("1h3").innerHTML = "Expérience";
     document.getElementById("1h4").innerHTML = "Permis Vacances Travail Australie & Canada - 2016 à 2018";
     document.getElementById("1p").innerHTML = "Expériences diverses.";
-    document.getElementById("2h4").innerHTML = "ThyssenKrupp Ascenseurs et ACAF Lyon - 2010 à 2015";
-    document.getElementById("2p").innerHTML = "Technicien de Maintenance Ascensoriste";
+    document.getElementById("2h4").innerHTML = "ThyssenKrupp Ascenseurs et ACAF LyonTechnicien de Maintenance Ascensoriste - 2010 à 2015";
+    document.getElementById("2p").innerHTML = "ThyssenKrupp Ascenseurs et ACAF Lyon";
     document.getElementById("2h3").innerHTML = "Formation";
     document.getElementById("25h4").innerHTML = "Ecole O'Clock - 2018";
     document.getElementById("25p").innerHTML = "Formation 'Le Socle'";
@@ -55,8 +55,8 @@ function switchRegion() {
     document.getElementById("1h3").innerHTML = "Experience";
     document.getElementById("1h4").innerHTML = "Working Holiday Visa Australia & Canada - 2016 to 2018";
     document.getElementById("1p").innerHTML = "Various experiences";
-    document.getElementById("2h4").innerHTML = "ThyssenKrupp Lifts and ACAF Lyon - 2010 to 2015";
-    document.getElementById("2p").innerHTML = "Lift Maintenance Technician";
+    document.getElementById("2h4").innerHTML = "Lift Maintenance Technician - 2010 to 2015";
+    document.getElementById("2p").innerHTML = "ThyssenKrupp Lifts and ACAF Lyon";
     document.getElementById("2h3").innerHTML = "Education";
     document.getElementById("25h4").innerHTML = "O'Clock School- 2018";
     document.getElementById("25p").innerHTML = "'The Base' training:";
@@ -82,8 +82,8 @@ function switchRegion() {
     document.getElementById("1h3").innerHTML = "Experiéncia";
     document.getElementById("1h4").innerHTML = "Working Holiday Visa Australia & Canada - 2016 a 2018";
     document.getElementById("1p").innerHTML = "Experiencias diversas";
-    document.getElementById("2h4").innerHTML = "ThyssenKrupp Elevadores y ACAF Lyon - 2010 a 2015";
-    document.getElementById("2p").innerHTML = "Técnico de Mantenimiento Ascensorista";
+    document.getElementById("2h4").innerHTML = "Técnico de Mantenimiento Ascensorista - 2010 a 2015";
+    document.getElementById("2p").innerHTML = "ThyssenKrupp Elevadores y ACAF Lyon";
     document.getElementById("2h3").innerHTML = "Formación";
     document.getElementById("25h4").innerHTML = "Escuela O'Clock - 2018";
     document.getElementById("25p").innerHTML = "Formación 'La Base':";
