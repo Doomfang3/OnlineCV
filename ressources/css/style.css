@@ -3,6 +3,7 @@
 }
 
 body.container {
+  font-size: 0.8rem;
   display: grid;
   grid-template-columns: minmax(20px, 1fr) minmax(800px, 60%) minmax(20px, 1fr);
 }
@@ -176,6 +177,7 @@ footer>p>a, footer>p {
 #switchRegion {
   margin: 1em;
   padding: 0;
+  z-index: 300;
 }
 
 #switchRegion:focus {

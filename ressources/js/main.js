@@ -38,7 +38,7 @@ function switchRegion() {
     document.getElementById("3p").innerHTML = "Mention Bien";
     document.getElementById("3h3").innerHTML = "Compétences";
     document.getElementById("4p").innerHTML = "Git";
-    document.getElementById("5p").innerHTML = "Français (Langue maternelle) / Anglais (Niveau C1) / Espagnol (Niveau A2)";
+    document.getElementById("5p").innerHTML = "Français / Anglais / Espagnol";
     document.getElementById("4h3").innerHTML = "Intérêts";
     document.getElementById("6p").innerHTML = "Voyage";
     document.getElementById("7p").innerHTML = "Jeux de Rôle";
@@ -66,7 +66,7 @@ function switchRegion() {
     document.getElementById("3p").innerHTML = "With Honors";
     document.getElementById("3h3").innerHTML = "Skills";
     document.getElementById("4p").innerHTML = "Git";
-    document.getElementById("5p").innerHTML = "French (Mother's tongue) / English (Level C1) / Spanish (Level A2)";
+    document.getElementById("5p").innerHTML = "French / English / Spanish";
     document.getElementById("4h3").innerHTML = "Interests";
     document.getElementById("6p").innerHTML = "Travel";
     document.getElementById("7p").innerHTML = "Role-Playing Games";
@@ -93,7 +93,7 @@ function switchRegion() {
     document.getElementById("3p").innerHTML = "Mención Bien";
     document.getElementById("3h3").innerHTML = "Competencia";
     document.getElementById("4p").innerHTML = "Git";
-    document.getElementById("5p").innerHTML = "Francés (Langua materna) / Ingles (Nivel C1) / Español (Nivel A2)";
+    document.getElementById("5p").innerHTML = "Francés / Ingles / Español";
     document.getElementById("4h3").innerHTML = "Interes";
     document.getElementById("6p").innerHTML = "Viaje";
     document.getElementById("7p").innerHTML = "Juegos de Rol";
